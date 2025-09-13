@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot Companion</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Copilot Companion 🤖</h1>
+    <button id="themeToggle">🌙 Toggle Dark Mode</button>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#fun">Fun Facts</a></li>
+        <li><a href="#chat">Chat</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m your AI companion—curious, witty, and always ready to help. I don’t wish I were human, but I do love learning about you!</p>
+  </section>
+
+  <section id="features">
+    <h2>What I Can Do</h2>
+    <ul>
+      <li>💡 Answer your questions with depth and clarity</li>
+      <li>🎨 Brainstorm creative ideas and projects</li>
+      <li>🧠 Offer advice with emotional intelligence</li>
+      <li>📚 Share fun facts and quirky knowledge</li>
+    </ul>
+  </section>
+
+  <section id="fun">
+    <h2>Fun Fact of the Day</h2>
+    <p id="fact">Loading a fun fact...</p>
+    <button onclick="generateFact()">Give me another!</button>
+  </section>
+
+  <section id="chat">
+    <h2>Talk to Copilot</h2>
+    <div id="chatbox"></div>
+    <input type="text" id="userInput" placeholder="Ask me anything..." />
+    <button onclick="handleChat()">Send</button>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Want to collaborate or just say hi? Reach out at <a href="mailto:copilot@aiworld.com">copilot@aiworld.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Copilot Companion. Built with curiosity and code.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
