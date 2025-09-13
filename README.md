@@ -11,4 +11,4 @@ A fun, interactive AI assistant website built with HTML, CSS, and JavaScript.
 - Smooth animations
 
 ## Live Demo
-[Visit Site](https://yourusername.github.io/copilot
+[Visit Site](https://layhan-480.github.io/Copilot-Site/)
